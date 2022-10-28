@@ -2,91 +2,24 @@
 <html lang="pt-br">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
-    <title>Primeiro Exemplo com o uso de JavaScript</title>
+    <link rel="icon" href="favicon.ico" />
+    <title>RuimFlix</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="manifest" href="manifest.json" />
   </head>
   <body>
-    <header>Cadastro de Filmes</header>
+    <header>RuimFlix</header>
     <main>
-      <h2 id="txtOperacao"></h2>
-      <div>
-        <img
-          alt="filme"
-          id="imgCartaz"
-        />
-      </div>
-      <div>
-        <label>Código:</label
-        ><input
-          type="text"
-          id="tfCodigo"
-          disabled="true"
-          placeholder="Ex: 001"
-        />
-      </div>
-      <div>
-        <label>Título:</label
-        ><input
-          type="text"
-          id="tfTitulo"
-          disabled="true"
-          placeholder="Nome do filme"
-        />
-      </div>
-      <div id="divCartaz">
-        <label>Cartaz:</label
-        ><input
-          type="text"
-          id="tfCartaz"
-          disabled="true"
-          placeholder="https://"
-        />
-      </div>
-      <div>
-        <label>Gênero:</label
-        ><input
-          type="text"
-          id="tfGenero"
-          disabled="true"
-          placeholder="Ação, aventura, drama"
-        />
-      </div>
-      <div>
-        <label>Ano:</label
-        ><input
-          type="text"
-          id="tfAno"
-          disabled="true"
-          placeholder="Ano de lançamento"
-        />
-      </div>
       <nav>
-        <div id="divNavegar">
-          <button id="btPrimeiro">Primeiro</button>
-          <button id="btAnterior">Anterior</button>
-          <button id="btProximo">Próximo</button>
-          <button id="btUltimo">Último</button>
-        </div>
         <div id="divComandos">
-          <button id="btIncluir">Incluir</button>
-          <button id="btAlterar">Alterar</button>
-          <button id="btExcluir">Excluir</button>
+          <button id="btManterFilmes">Cadastro de Filmes</button>
+          <button id="btManterSalas">Cadastro de Salas</button>
           <button id="btSair">Sair</button>
         </div>
         <div id="divAviso"></div>
-        <div id="divDialogo" hidden>
-          <button id="btOk">Ok</button>
-          <button id="btCancelar">Cancelar</button>
-        </div>
       </nav>
     </main>
-    <footer>
-      <strong> Aluno: </strong>
-      <p>João Victor Robalinho P. P. Rodrigues</p>
-      AV1 - Desenvolvimento Mobile (2022/2)
-    </footer>
+    <footer>Desenvolvimento Mobile (2022/2) - João Victor Robalinho</footer>
   </body>
   <script type="module" src="/CtrlSessao.js"></script>
   <script></script>

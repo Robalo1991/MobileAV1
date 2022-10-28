@@ -18,8 +18,14 @@ const FILES_TO_CACHE = [
   "/style.css"
 ];
 
+//--------------------------------------------------------------------------------//
+
+// * self se refere à janela do navegador
 self.addEventListener("install", evt =>  {
   console.log("[App]Instalação");
+  // * caches é uma variável global que retorna o CacheStorage do contexto atual
+  // * caches.keys retorna uma Promise que retornará um array com o nome de 
+  //   todos objetos armazenados no cache
   caches.keys().then(keyList => {
     return Promise.all(
       keyList.map(key => {
@@ -40,6 +46,8 @@ self.addEventListener("install", evt =>  {
   self.skipWaiting();
 });
 
+//--------------------------------------------------------------------------------//
+
 self.addEventListener("activate", evt => {
   console.log("[App] Activate");
   evt.waitUntil(
@@ -56,3 +64,5 @@ self.addEventListener("activate", evt => {
   );
   self.clients.claim();
 });
+
+//--------------------------------------------------------------------------------//

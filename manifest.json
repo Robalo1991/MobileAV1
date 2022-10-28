@@ -1,14 +1,14 @@
 {
-  "name": "Cadastro de Filmes",
-  "short_name": "CadFilmes",
+  "name": "RuimFlix",
+  "short_name": "RuimFlix",
   "categories": ["education","social"],
   "start_url": "/",
   "scope": ".",
   "shortcuts" : [
     {
-      "name": "Cadastro de Filmes",
+      "name": "RuimFlix",
       "url": "/",
-      "description": "Cadastro de Filmes"
+      "description": "Uma aplicação teste para se marcar exibição de filmes ruins"
     }
   ],
   

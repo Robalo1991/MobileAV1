@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="utf-8" />
+            <title>RuimFlix - Cadastro Filmes</title>
+            <link rel="stylesheet" href="../style.css" />
+            <link rel="manifest" href="../manifest.json">
+        </head>
+            <body>
+                <header>
+                    Cadastro de Filmes
+                </header>
+                <main>
+                    <div><label>Número de registro:</label><input type="text" id="tfReg" disabled="true" /></div>
+                    <div><label>Código do Filme:</label><input type="text" id="tfCodFilme" disabled="true" /></div>
+                    <div><label>Titulo:</label><input type="text" id="tfTitulo" disabled="true" /></div>
+                    <div><label>Diretor:</label><input type="text" id="tfDiretor" disabled="true" /></div>
+                    <div><label>Duração:</label><input type="text" id="tfDuracao" disabled="true" /></div>
+                    <div><label>Sala:</label><select id="cbSala" disabled="true"></select></div>
+                    <nav>
+                        <div id="divNavegar">
+                            <button id="btPrimeiro">
+                                Primeiro
+                            </button>
+                            <button id="btAnterior">
+                                Anterior
+                            </button>
+                            <button id="btProximo">
+                                Próximo
+                            </button>
+                            <button id="btUltimo">
+                                Último
+                            </button>
+                        </div>
+                        <div id="divComandos">
+                            <button id="btIncluir">
+                                Incluir
+                            </button>
+                            <button id="btAlterar">
+                                Alterar
+                            </button>
+                            <button id="btExcluir">
+                                Excluir
+                            </button>
+                            <button id="btSair">
+                                Sair
+                            </button>
+                        </div>
+                        <div id="divAviso">
+                        </div>
+                        <div id="divDialogo" hidden>
+                            <button id="btOk">
+                                Ok
+                            </button>
+                            <button id="btCancelar">
+                                Cancelar
+                            </button>
+                        </div>
+                    </nav>
+                </main>
+                <footer>
+
+                </footer>
+            </body>
+            <script type="module" src="/CtrlSessao.js"></script>
+            <script>
+
+            </script>
+</html>
